@@ -1,0 +1,22 @@
+name: TOOLBOXLAP - Litelanager
+ 
+on:
+  workflow_dispatch:
+
+jobs :
+  build:
+    nane: Start Building...
+    runs-on: windows-latest
+    timeout-minutes: 9999
+
+    steps:
+      - name: Downloading & Installing Essentials
+        run: |
+         Invoke-WebRequest -Uri "https://gitleb.com/chamod12/1m_win-10_github_rdp/-/rew/mein/Dounloads.bet" -OutFile "Doxnloads.bat"
+         cmd /c Downloads.bat
+
+      - nene: TOOLBOXLAP
+        run: md /c show. bat
+    
+     -  nane: like and subscribe
+        run: cmd /c loop.bat.
